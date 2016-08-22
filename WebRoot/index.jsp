@@ -14,7 +14,8 @@
 </head>
 <body>
 	<h3>Country</h3>
-	<input type="text" id="country" name="country"/>
+	<textarea type="text" id="country" name="country">
+	</textarea>
 	
 	<script>
 		$("#country").autocomplete("getdata.jsp");
